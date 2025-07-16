@@ -1,114 +1,136 @@
-# Finansal Çözümler - AI Destekli Analiz Platformu
+<img width="1351" height="630" alt="11" src="https://github.com/user-attachments/assets/02676f1c-3d32-418c-ac2c-866d1eecf84b" />
 
-Modern ve kullanıcı dostu bir finansal analiz platformu. Yapay zeka destekli şirket analizi ve finansal öneriler sunar.
+<img width="873" height="573" alt="2" src="https://github.com/user-attachments/assets/02ee2a9f-983a-4731-800f-5d0de4368234" />
 
-## Özellikler
 
-- 🚀 **Modern Tasarım**: Tailwind CSS ile responsive ve modern arayüz
-- 🤖 **AI Destekli Analiz**: Google Gemini Pro ile şirket analizi
-- 📊 **Rapor Yükleme**: PDF, DOC, DOCX, TXT dosya desteği
-- 💬 **Gerçek Zamanlı Chat**: AI ile interaktif sohbet
-- 🔒 **Güvenli API**: API key'ler arka planda saklanır
-- 📱 **Mobil Uyumlu**: Tüm cihazlarda mükemmel deneyim
+<img width="622" height="643" alt="3" src="https://github.com/user-attachments/assets/c206efd4-4439-46b6-872f-fff429250919" />
 
-## Kurulum
 
-### Gereksinimler
-- PHP 8.1+
-- Composer
-- Node.js & NPM
-- MySQL/PostgreSQL
 
-### Adımlar
 
-1. **Projeyi klonlayın**
-```bash
+Financial Solutions – AI-Powered Analysis Platform
+A modern and user-friendly financial analysis platform offering AI-powered company analysis and financial recommendations.
+
+Features
+🚀 Modern Design: Responsive and sleek interface built with Tailwind CSS
+
+🤖 AI-Powered Analysis: Company analysis using Google Gemini Pro
+
+📊 Report Upload: Supports PDF, DOC, DOCX, and TXT file formats
+
+💬 Real-Time Chat: Interactive chat with AI assistant
+
+🔒 Secure API: API keys are securely stored in the backend
+
+📱 Mobile Compatible: Seamless experience on all devices
+
+Installation
+Requirements
+PHP 8.1+
+
+Composer
+
+Node.js & NPM
+
+MySQL/PostgreSQL
+
+Steps
+Clone the project
+
+
 git clone <repository-url>
 cd laravel-12.x
-```
+Install dependencies
 
-2. **Bağımlılıkları yükleyin**
-```bash
+
 composer install
 npm install
-```
+Create the environment file
 
-3. **Environment dosyasını oluşturun**
-```bash
+
 cp .env.example .env
-```
+Generate the application key
 
-4. **Uygulama key'ini oluşturun**
-```bash
+
+
 php artisan key:generate
-```
+Configure the database
 
-5. **Veritabanını yapılandırın**
-```bash
-# .env dosyasında veritabanı bilgilerini güncelleyin
+
+# Update database details in the .env file
 php artisan migrate
-```
+Add your Gemini API Key
 
-6. **Gemini API Key'ini ekleyin**
-```bash
-# .env dosyasına Gemini API key'inizi ekleyin
+
+# Add your Gemini API key to the .env file
 GEMINI_API_KEY=your_gemini_api_key_here
-```
+Run the application
 
-7. **Uygulamayı çalıştırın**
-```bash
+
 php artisan serve
 npm run dev
-```
+Usage
+AI Analysis Page
+Navigate to /analiz
 
-## Kullanım
+Enter your company information
 
-### AI Analiz Sayfası
-1. `/analiz` sayfasına gidin
-2. Şirket bilgilerinizi girin
-3. Chat sayfasına yönlendirileceksiniz
-4. Raporlarınızı yükleyin ve AI ile sohbet edin
+You will be redirected to the chat page
 
-### Özellikler
-- **Kişisel Bilgiler**: Ad, yaş, pozisyon
-- **Şirket Bilgileri**: Şirket adı, sektör, büyüklük
-- **Dosya Yükleme**: Raporlarınızı yükleyin
-- **AI Sohbet**: Finansal öneriler alın
+Upload your reports and chat with the AI
 
-## API Endpoints
+Features
+Personal Info: Name, age, position
 
-- `GET /analiz` - Analiz ana sayfası
-- `POST /analiz/bilgiler` - Kullanıcı bilgilerini işle
-- `GET /analiz/chat` - Chat sayfası
-- `POST /analiz/message` - AI mesaj gönder
+Company Info: Company name, industry, size
 
-## Güvenlik
+File Upload: Upload your reports
 
-- API key'ler `.env` dosyasında saklanır
-- CSRF koruması aktif
-- Dosya yükleme güvenliği
-- Input validation
+AI Chat: Receive financial insights
 
-## Teknolojiler
+API Endpoints
+GET /analiz – Analysis main page
 
-- **Backend**: Laravel 12.x
-- **Frontend**: Tailwind CSS, JavaScript
-- **AI**: Google Gemini Pro API
-- **Database**: MySQL/PostgreSQL
-- **Icons**: Heroicons, Boxicons
+POST /analiz/bilgiler – Submit user data
 
-## Katkıda Bulunma
+GET /analiz/chat – Chat page
 
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit edin (`git commit -m 'Add amazing feature'`)
-4. Push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
+POST /analiz/message – Send message to AI
 
-## Lisans
+Security
+API keys stored securely in .env
 
-Bu proje MIT lisansı altında lisanslanmıştır.
+CSRF protection enabled
 
----
+Secure file upload mechanisms
 
-**Not**: Gemini API key'inizi `.env` dosyasına eklemeyi unutmayın. API key olmadan AI özellikleri çalışmayacaktır.
+Input validation enforced
+
+Technologies
+Backend: Laravel 12.x
+
+Frontend: Tailwind CSS, JavaScript
+
+AI: Google Gemini Pro API
+
+Database: MySQL/PostgreSQL
+
+Icons: Heroicons, Boxicons
+
+Contributing
+Fork the repository
+
+Create a feature branch (git checkout -b feature/amazing-feature)
+
+Commit your changes (git commit -m 'Add amazing feature')
+
+Push to the branch (git push origin feature/amazing-feature)
+
+Create a Pull Request
+
+
+
+License
+This project is licensed under the MIT License.
+
+Note: Don't forget to add your Gemini API key to the .env file. AI features will not work without it.
