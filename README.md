@@ -1,14 +1,22 @@
 <img width="1351" height="630" alt="11" src="https://github.com/user-attachments/assets/02676f1c-3d32-418c-ac2c-866d1eecf84b" />
+<br>
+<br>
 
 <img width="873" height="573" alt="2" src="https://github.com/user-attachments/assets/02ee2a9f-983a-4731-800f-5d0de4368234" />
+<br>
+<br>
 
 
 <img width="622" height="643" alt="3" src="https://github.com/user-attachments/assets/c206efd4-4439-46b6-872f-fff429250919" />
+<br>
+<br>
 
 
 
 
-Financial Solutions – AI-Powered Analysis Platform
+# Financial Solutions – AI-Powered Analysis Platform
+<br>
+
 A modern and user-friendly financial analysis platform offering AI-powered company analysis and financial recommendations.
 
 Features
